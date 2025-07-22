@@ -1,0 +1,23 @@
+.slider {
+  -webkit-appearance: none; /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 4px; /* Specified height */
+  background: #ffafaf; /* Gray background */
+  outline: none; /* Remove outline */
+  opacity: 1; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: 0.2s; /* 0.2 seconds transition on hover */
+  transition: opacity 0.2s;
+  border-radius: 5px; /* Round slider */
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 20px; /* Specify a thumb width */
+  height: 20px; /* Specify a thumb height */
+  background: #fff; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+  border-radius: 50%; /* Round thumb */
+  border: 1px solid #ffafaf; /* Green border */
+}
