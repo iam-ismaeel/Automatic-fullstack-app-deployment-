@@ -1,4 +1,4 @@
-# **🚀 Full-Stack E-Commerce App (Next.js + Laravel) | CI/CD with AWS CodeDeploy**  
+# **🚀 Full-Stack E-Commerce App (Next.js + Laravel) | CI/CD with AWS CodeDeploy | Nginx + PM2 on AWS EC2**  
 
 ##**A modern, scalable, and secure full-stack application** built with **Next.js (Frontend)** and **Laravel (Backend)**, deployed on **AWS EC2** via **GitHub Actions (CI/CD)**. This project demonstrates **DevOps best practices**, including **secure environment management, automated deployments, and cloud infrastructure optimization**.  
 
