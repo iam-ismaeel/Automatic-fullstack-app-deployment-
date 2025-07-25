@@ -1,6 +1,6 @@
 # **🚀 Full-Stack E-Commerce App (Next.js + Laravel) | CI/CD with AWS CodeDeploy**  
 
-**A modern, scalable, and secure full-stack application** built with **Next.js (Frontend)** and **Laravel (Backend)**, deployed on **AWS EC2** via **GitHub Actions (CI/CD)**. This project demonstrates **DevOps best practices**, including **secure environment management, automated deployments, and cloud infrastructure optimization**.  
+##**A modern, scalable, and secure full-stack application** built with **Next.js (Frontend)** and **Laravel (Backend)**, deployed on **AWS EC2** via **GitHub Actions (CI/CD)**. This project demonstrates **DevOps best practices**, including **secure environment management, automated deployments, and cloud infrastructure optimization**.  
 
 ---
 
@@ -8,7 +8,7 @@
 ✅ **Full-Stack Architecture** – Next.js (React) frontend + Laravel (PHP) backend in a **monorepo**.  
 ✅ **Automated CI/CD Pipeline** – GitHub Actions builds, tests, and deploys to AWS CodeDeploy.  
 ✅ **Secure Secrets Management** – Environment variables stored in **AWS S3** (retrieved during build).  
-✅ **AWS Cloud Integration** – EC2, RDS (PostgreSQL/MySQL), IAM Roles, and S3 for storage.  
+✅ **AWS Cloud Integration** – EC2, RDS (MySQL), IAM Roles, and S3 for storage.  
 ✅ **Infrastructure as Code (IaC)** – AWS resources provisioned with best-practice permissions.  
 ✅ **Scalable & Cost-Optimized** – Load-balanced EC2 instances with auto-scaling (future-ready).  
 
@@ -19,7 +19,7 @@
 |--------------------|----------------------------------------|
 | **Frontend**       | Next.js (TypeScript, Tailwind CSS)     |
 | **Backend**        | Laravel (PHP)                          |
-| **Database**       | AWS RDS (PostgreSQL)                   |
+| **Database**       | AWS RDS (MySQL)                   |
 | **CI/CD**          | GitHub Actions → AWS CodeDeploy        |
 | **Infrastructure** | AWS EC2, S3, IAM, CloudWatch           |
 | **Secrets Mgmt**   | AWS S3 (env files)                     |
@@ -60,11 +60,11 @@ graph LR
 ### **Installation**  
 ```bash
 # Clone repo
-git clone https://github.com/your-username/fullstack-app.git
-cd fullstack-app
+git clone https://github.com/iam-ismaeel/Automatic-fullstack-app-deployment-.git
+cd Automatic-fullstack-app-deployment-
 
 # Install frontend deps
-cd frontend && npm install
+cd frontend && yarn install
 
 # Install backend deps
 cd ../backend && composer install
@@ -77,7 +77,7 @@ php artisan key:generate
 ### **Running Locally**  
 ```bash
 # Frontend (Next.js)
-cd frontend && npm run dev
+cd frontend && yarn dev
 
 # Backend (Laravel)
 cd backend && php artisan serve
@@ -95,8 +95,8 @@ The workflow:
 3. **Uploads artifacts** to S3.  
 4. **Triggers CodeDeploy** to EC2.  
 
-**View workflow file**: [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml)  
-
+**View freontend workflow file**: [`.github/workflows/deploy.yml`](.github/workflows/frontend.yaml)  
+**View backend workflow file**: [`.github/workflows/deploy.yml`](.github/workflows/backend.yaml) 
 ---
 
 ## **📈 Monitoring & Scaling (Future Improvements)**  
@@ -113,9 +113,14 @@ The workflow:
 ✔ **Modern Full-Stack Practices** – Next.js SSR + Laravel API.  
 
 ---
+## 🖼️ Screenshots
 
+| Homepage | Dashboard |
+|----------|-----------|
+| ![Homepage](/assets/homepage.png) | ![Dashboard](/assets/dashboard.png) |
+---
 ## **📜 License**  
-MIT © [Your Name]  
+MIT © [Kasali Ismail Olamilekan]  
 
 ---
 
@@ -124,5 +129,4 @@ MIT © [Your Name]
 - **AWS cloud expertise** (EC2, S3, RDS, IAM).  
 - **CI/CD mastery** (GitHub Actions → CodeDeploy).  
 
-Deployed demo: [Live Demo Link](#) (Optional)  
 
