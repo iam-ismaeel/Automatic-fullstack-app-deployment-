@@ -115,18 +115,12 @@ The workflow:
 ---
 ## 🖼️ Screenshots
 
-| Homepage | Dashboard |
+| Frontend-app | CodeDeploy |
 |----------|-----------|
-| ![Homepage](/assets/homepage.png) | ![Dashboard](/assets/dashboard.png) |
+| ![Homepage](/assets/frontend-app.jpg) | ![CodeDeploy](/assets/codeDeploy.jpg) |
 ---
 ## **📜 License**  
-MIT © [Kasali Ismail Olamilekan]  
-
+MIT © [Kasali Ismail Olamilekan] 
 ---
-
-**🎯 Ideal for recruiters looking for:**  
-- **DevOps + Full-Stack skills** in one project.  
-- **AWS cloud expertise** (EC2, S3, RDS, IAM).  
-- **CI/CD mastery** (GitHub Actions → CodeDeploy).  
 
 
